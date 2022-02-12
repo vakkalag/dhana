@@ -1,0 +1,27 @@
+sugar=80
+basmati=100
+lays=40
+weatfloor=70
+dal=120
+cname=input('enter the customer name:')
+cphno=input('enter mobile number:')
+skg=int(input('enter no. of kgsof sugar:'))
+bkg=int(input('enter no. of kgs of brice:'))
+lpac=int(input('enter no. of packets:'))
+wkg=int(input('enter no. of kgs of weatfloor:'))
+dkg=int(input('enter no. of kgs of dal:'))
+bill=(sugar*skg)+(basmati*bkg)+(lays*lpac)+(weatfloor*wkg)+(dal*dkg)
+if bill>=5000:
+    dis=bill*10/100
+    tax=bill*18/100
+elif bill>=3000:
+    dis=bill*8/100
+    tax=bill*12/100
+elif bill>=2000:
+    dis=bill*5/100
+    tax=0
+elif bill>=1000:
+    dis=bill*3/100
+    tax=0
+mainbill=bill-dis+tax
+print("total bill:",mainbill)
