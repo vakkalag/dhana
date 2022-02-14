@@ -1,0 +1,14 @@
+k = 73
+r= 76
+i = 79
+s = 86
+h =69
+n = 85
+a = 21
+print ("The character value of 'k' ASCII value is: ", chr(k))    
+print ("The character value of 'r' ASCII value is: ", chr(r))    
+print ("The character value of 'i' ASCII value is: ", chr(i))  
+print ("The character value of 's' ASCII value is: ", chr(s))  
+print ("The character value of 'h' ASCII value is: ", chr(h))  
+print ("The character value of 'n' ASCII value is: ", chr(n))  
+print ("The character value of 'a' ASCII value is: ", chr(a))  
