@@ -1,0 +1,12 @@
+def getSum(n):
+     
+    strr = str(n)
+    list_of_number = list(map(int, strr.strip()))
+    return sum(list_of_number)
+   
+n = 123456789
+print(getSum(n))
+
+******* OUT PUT *****
+
+45
