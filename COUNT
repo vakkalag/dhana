@@ -1,0 +1,11 @@
+num = 123456789
+count = 0
+
+while num != 0:
+    num //= 10
+    count += 1
+
+print("Number of digits: " + str(count))
+
+****OUT PUT ****
+Number of digits: 9
