@@ -1,0 +1,10 @@
+num=int(input("enter the range: "))
+sum1=0
+s1=-1
+s2=1 
+for i in range(num):
+    s3=s1+s2
+    sum1=sum1+s3
+    s1=s2
+    s2=s3
+print(sum1)
