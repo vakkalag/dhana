@@ -1,0 +1,17 @@
+n=int(input('enter n:'))
+x=input()
+l+x.split()
+n=len(l)
+o=[]
+e=[]
+for i in range(n):
+    j=i+1 
+    if j % 2==0:
+         e.append(l[i]) 
+    else:
+         o.append(l[i])
+print(o,' ',e)
+*****OUT PUT **********
+enter number:5
+3 4 5 2 1
+['3','5','1'] ['2','4']
