@@ -1,0 +1,27 @@
+l=[]
+n=int(input('enter elements:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+res=[]
+for i in l:
+    if i not in res:
+        res.append(i)
+res = {i:l.count(i) for i in l}
+print(res)
+
+
+
+****OUT PUT ****
+enter element:8
+1
+2
+3
+4
+5
+1
+2
+3
+[1,2,3,4,5,1,2,3,4]
+{1:2,2:2,3:2,4:2,5:1}
