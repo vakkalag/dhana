@@ -1,0 +1,14 @@
+def FirstAndLast(string):
+    arr=string.spilt();
+    res="";
+    for a in arrOfStr:
+        res +=a[1:len(a)-1]+" ";
+    return res;
+if__name__=="__main__":
+    string="Geeks for Geeks";
+    print(string);
+    print(zfirstAndLast(string));
+    ****OUT PUT***
+    Aditya Degree
+    
+    ditya degree
