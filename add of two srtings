@@ -1,0 +1,25 @@
+x=input()
+y=input()
+m=len(x)
+n=len(y)
+g=[]
+if m==n:
+   for i in range(m):
+       g.append(x[i])
+       g.append(y[i])
+elif m>n:
+    for i in range(m):
+        if(i<n):
+            g.append(x[i])
+            g.append(y[i])
+        else:
+            g.append(x[i])
+else:
+    for i in range(n):
+        if(i<m):
+            g.append(x[i])
+            g.append(y[i])
+        else:
+            g.append(y[i])
+for i in g:
+        print(i,end='')
