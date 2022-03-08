@@ -1,0 +1,18 @@
+x=input()
+x=x.lower()
+print(x)
+l=list(x)
+v=0
+c=0
+for i in l:
+    if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+        v=v+1 
+    else:
+        c=c+1
+print(v)
+print(c)
+***OUT PUT***
+DHANA LAXMI
+dhana laxmi
+4
+6
